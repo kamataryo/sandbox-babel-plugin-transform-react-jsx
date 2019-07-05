@@ -1,0 +1,18 @@
+{
+  "version": "0.0.0",
+  "author": "kamataryo <mugil.cephalus+github.com@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.5",
+    "@types/babel__core": "^7.1.2",
+    "@types/node": "^12.0.10"
+  },
+  "name": "sandbox-babel-plugin-transform-react-jsx",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/target.js --out-dir dist"
+  }
+}
